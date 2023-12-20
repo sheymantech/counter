@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.body button {
+  letter-spacing: 5px;
+  padding: 4px 18px;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+.body button:hover {
+  background-color: black;
+  color: white;
+}
+.counter {
+  font-weight: 700;
+  font-size: 130px;
+}
+.body h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
